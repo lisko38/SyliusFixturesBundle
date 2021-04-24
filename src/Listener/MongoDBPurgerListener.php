@@ -14,7 +14,7 @@ declare(strict_types=1);
 namespace Sylius\Bundle\FixturesBundle\Listener;
 
 use Doctrine\Common\DataFixtures\Purger\MongoDBPurger;
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Bundle\MongoDBBundle\ManagerRegistry;
 use Doctrine\ODM\MongoDB\DocumentManager;
 use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
 
